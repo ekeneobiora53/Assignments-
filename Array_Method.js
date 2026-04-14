@@ -3,12 +3,12 @@
 const numbers = [2, 4, 6, 8, 10];
 numbers.forEach(function(number){
   console.log(number * 2)
-});
+})
 
 //Question 2: Using forEach() to print each name in the array along with the strings "Hello" and "!"
 const names = ["Esther", "John", "Ada", "Mike"];
 names.forEach(function(name){
-  console.log("Hello " + name + "!");
+  console.log("Hello " + name + "!")
 })
 
 //SECTION B: map()
